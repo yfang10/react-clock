@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+//YUE FANG-Andrew
+import React, { useState, useEffect } from "react";
+import "./App.css";
 
-const App =() => {
+const App = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
   const [additionalClocks, setAdditionalClocks] = useState([]);
 
@@ -34,6 +35,6 @@ const App =() => {
       <button onClick={handleAddClockClick}>Create Another Clock</button>
     </div>
   );
-}
+};
 
 export default App;
